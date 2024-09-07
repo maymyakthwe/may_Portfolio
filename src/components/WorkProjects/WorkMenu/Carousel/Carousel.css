@@ -1,0 +1,31 @@
+.carousel {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.carousel img {
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.carousel button {
+    border: none;
+    background: transparent;
+    text-shadow: 2px 1px var(--color-bg);
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+.carousel button:nth-of-type(1) {
+    left: 0;
+}
+
+.carousel button:nth-of-type(2) {
+    right: 0;
+}

@@ -1,0 +1,102 @@
+.background {
+    box-shadow: 0 0px 10px 0px var(--intro-bg-darken);
+    position: relative;
+    z-index: 1000;
+    background-color: var(--intro-bg-light);
+    padding: 20px 0;
+}
+
+.background h1,
+.background p {
+    padding: 15px 0;
+    margin: 0;
+}
+
+.background span {
+    color: var(--intro-bg-dark);
+}
+
+.background p {
+    font-size: 18px;
+}
+
+.background-wrapper {
+    background-color: #fff;
+    padding: 140px 180px;
+    text-align: justify;
+    height: 100%;
+}
+
+
+
+.background button {
+    margin-top: 20px;
+    background-color: #fff;
+    color: var(--intro-bg-dark);
+    border: 2px solid var(--intro-bg-dark);
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.background a,
+.background a:visited {
+    color: inherit;
+}
+
+
+
+
+
+
+
+
+
+
+/* responsive */
+/* responsive */
+/* responsive */
+/* responsive */
+/* responsive */
+
+@media only screen and (max-width: 1024px) {
+    .background-wrapper {
+        padding: 100px 120px;
+    }
+}
+
+/* 640 */
+/* 640 */
+/* 640 */
+/* 640 */
+/* 640 */
+
+@media only screen and (max-width: 640px) {
+    .background-wrapper {
+        padding: 100px 60px;
+    }
+
+    .background h1 {
+        font-size: 28px;
+    }
+}
+
+/* 500 */
+/* 500 */
+/* 500 */
+/* 500 */
+/* 500 */
+
+@media only screen and (max-width: 500px) {
+    .background-wrapper {
+        padding: 70px 50px;
+    }
+
+    .background h1 {
+        font-size: 28px;
+    }
+
+    .background p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+}

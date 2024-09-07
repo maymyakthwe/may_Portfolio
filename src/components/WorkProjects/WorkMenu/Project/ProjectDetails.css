@@ -1,0 +1,131 @@
+.project-details-wrapper {
+    width: 100%;
+    min-height: max-content;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project-details {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 0;
+    text-align: justify;
+}
+
+a.back-to-projects,
+a.back-to-projects:visited {
+    text-decoration: underline;
+    color: var(--color-bg-dark);
+}
+
+.details-demo-link {
+    display: flex;
+}
+
+.details-demo-link p {
+    border: 2px solid var(--color-bg);
+    padding: 10px 20px;
+    margin: 5px 10px 30px 0px;
+    border-radius: 15px;
+}
+
+
+
+.details-demo-link a,
+.details-demo-link a:visited {
+
+    text-decoration: underline;
+    color: var(--color-bg-dark);
+    position: relative;
+}
+
+div.project-details-wrapper>#contact-me {
+    background-color: #fff;
+}
+
+div.project-details-wrapper>#contact-me div.contact-me-wrapper {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+
+
+/* responsive */
+/* responsive */
+/* responsive */
+/* responsive */
+/* responsive */
+
+
+@media only screen and (max-width: 1024px) {
+    .project-details {
+        width: 80%;
+    }
+
+    div.project-details-wrapper>#contact-me div.contact-me-wrapper {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .project-details h1 {
+        font-size: 26px;
+        margin: 15px 0;
+    }
+
+    .project-details h2 {
+        font-size: 22px;
+        margin: 12px 0;
+    }
+
+    .details-demo-link p {
+        font-size: 12px;
+        padding: 8px 12px;
+        margin: 5px 5px 20px 0px;
+    }
+}
+
+
+@media only screen and (max-width: 440px) {
+
+    .project-details {
+        font-size: 14px;
+    }
+
+    .project-details h1 {
+        font-size: 24px;
+        margin: 12px 0;
+    }
+
+    .project-details h2 {
+        font-size: 20px;
+        margin: 10px 0;
+    }
+
+    .details-demo-link p {
+        font-size: 10px;
+        padding: 8px 10px;
+        margin: 5px 5px 20px 0px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .project-details h1 {
+        font-size: 22px;
+        margin: 10px 0;
+    }
+
+    .project-details h2 {
+        font-size: 18px;
+        margin: 8px 0;
+    }
+
+    .details-demo-link p {
+        font-size: 8px;
+    }
+}
