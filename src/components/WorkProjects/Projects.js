@@ -105,7 +105,7 @@ let allProjects = [
     {
         id: 6,
         name: 'Snake Game Project',
-        description: 'This Snake game project started as a YouTube tutorial that I followed, but then customized and improved it to a more refined version. This experience allows me to better understand core concepts of Vanila JS.',
+        description: 'This Snake game project started as a YouTube tutorial that I followed, but then customized and improved it to a more refined version. This experience allows me to better understand core concepts of Javascript.',
         imgArr: [snake1, snake2],
         framework: 'HTML, CSS, JS',
         catagory: 'youtube',

@@ -21,7 +21,7 @@ const Background = () => {
                     While I have explored various frameworks such as Laravel,
                     my primary focus remains on the MERN stack. I am also proficient
                     in both relational (MySQL) and non-relational (MongoDB) databases.</p>
-                <p>Currently, I am pursuing a diploma in Infocomm Technology, which I will complete next month.
+                <p>Currently, I am pursuing a diploma in Infocomm Technology, which I will complete in December, 2024.
                     I am eager to apply my diverse skill set and passion for web development
                     to an innovative team.</p>
 
